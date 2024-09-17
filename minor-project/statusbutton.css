@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.button-container {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+
+.btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+
+.btn-filled {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+
+.success {
+    color: green;
+    border-color: green;
+}
+
+.success:hover {
+    background-color: rgba(0, 128, 0, 0.1);
+}
+
+.btn-filled.success {
+    background-color: rgb(192, 240, 192);
+}
+
+.info {
+    color: blue;
+    border-color: blue;
+}
+
+.info:hover {
+    background-color: rgba(0, 0, 255, 0.1);
+}
+
+.btn-filled.info {
+    background-color: rgb(212, 212, 240);
+}
+
+.warning {
+    color: orange;
+    border-color: orange;
+}
+
+.warning:hover {
+    background-color: rgba(255, 165, 0, 0.1);
+}
+
+.btn-filled.warning {
+    background-color: rgb(240, 229, 208);
+}
+
+.danger {
+    color: red;
+    border-color: red;
+}
+
+.danger:hover {
+    background-color: rgba(255, 0, 0, 0.1);
+}
+
+.btn-filled.danger {
+    background-color: rgb(235, 195, 195);
+}
+
+.default {
+    color: black;
+    border-color: black;
+}
+
+.default:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.btn-filled.default {
+    background-color: gray;
+}
